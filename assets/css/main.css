@@ -26,13 +26,26 @@ body {
     padding: 5px 7px 5px 7px;
     margin: 0px 5px 0px 5px;
     color: inherit;
-    text-decoration: inherit;
     border-radius: 5px;
     background-color: #eeeeee;
 }
 
+#big-nav a:not(.external-link) {
+    text-decoration: inherit;
+}
+
 #big-nav a:hover {
     background-color: #dddddd;
+}
+
+.nav-section-separator {
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 5px 0px 5px;
+}
+
+.external-link {
+    text-decoration: underline;
 }
 
 #main-content {
@@ -68,4 +81,3 @@ body {
     margin: 0 auto 0 auto;
     text-align: center;
 }
-
